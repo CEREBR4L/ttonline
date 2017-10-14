@@ -53,27 +53,3 @@ body{
     color: #494949;
 }
 
-.soon h1{
-    font-size: 350%;
-    text-align: center;
-    padding: 20px 0;
-    font-weight: 700;
-}
-
-.soon a{
-    color: #6aa5ed;
-    text-decoration: none;
-    font-weight: 700;
-    letter-spacing: 1.3px;
-    text-transform: uppercase;
-    transition: .4s;
-}
-
-.soon a:visited{
-    color: #3b72cc;
-}
-
-.soon a:hover{
-    color: #8ac5ff;
-}
-
