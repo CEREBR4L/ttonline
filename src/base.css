@@ -58,4 +58,48 @@ h1{
     font-weight: 700;
 }
 
+.nav{
+	position: absolute;
+	width: 100%;
+	padding: 40px 0;
+	color: #eee;
+}
+
+.nav>ul{
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.nav>ul>li{
+	background-color: #ea206a;
+	padding: 3px 11px;
+	border-radius: 30px;
+	transition: .66s;
+}
+
+.nav>ul>li:hover{
+	background-color: #11bdfc;
+}
+
+.nav-list-itm{
+	color: #eee;
+	text-decoration: none;
+	font-size: 0;
+	transition: .22s;
+}
+
+.nav>ul>li:hover .nav-list-itm{
+	font-size: .8em;
+	padding: 2px 8px;
+}
+
+
+.active-nav-itm{
+	font-size: .8em;
+	padding: 2px 8px;
+}
+
+
 

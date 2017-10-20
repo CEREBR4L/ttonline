@@ -12,6 +12,15 @@ const customHistory = createBrowserHistory()
 ReactDOM.render(
     <Router history={customHistory}>
       <div>
+        <nav className="nav">
+            <ul className="nav-list">
+                <li><NavLink exact activeClassName="active-nav-itm" className="nav-list-itm" to="/">Home</NavLink></li>
+                <li><NavLink exact activeClassName="active-nav-itm" className="nav-list-itm" to="#">Pictures</NavLink></li>
+                <li><NavLink exact activeClassName="active-nav-itm" className="nav-list-itm" to="#">Art</NavLink></li>
+                <li><NavLink exact activeClassName="active-nav-itm" className="nav-list-itm" to="/links">Links</NavLink></li>
+            </ul>
+        </nav>
+
         <div>
             <Route exact path="/" component={Home}/>
             <Route exact path="/links" component={Links}/>
