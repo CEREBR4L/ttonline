@@ -44,7 +44,8 @@ table {
 
 body{
     min-height: 100vh;
-    background-color: #282828;
+	background-color: #2d2639;
+	background: linear-gradient(to bottom right, #2d2639 ,#41384e);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -73,21 +74,22 @@ h1{
 }
 
 .nav>ul>li{
-	background-color: #ea206a;
+	background-color: #ed366e;
 	padding: 3px 11px;
 	border-radius: 30px;
-	transition: .66s;
+	transition: .33s;
 }
 
 .nav>ul>li:hover{
-	background-color: #11bdfc;
+	background-color: #4db8f6;
+	background-image: none;
 }
 
 .nav-list-itm{
 	color: #eee;
 	text-decoration: none;
 	font-size: 0;
-	transition: .22s;
+	transition: .33s;
 }
 
 .nav>ul>li:hover .nav-list-itm{
