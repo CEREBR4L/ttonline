@@ -426,7 +426,6 @@ body{
     min-height: 80vh;
     background-color: #5CC8FF;
     background: linear-gradient(to bottom right, #5CC8FF, #DEC1FF);
-    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, .4);
 }
 
 .jumbo-landing{
@@ -449,3 +448,71 @@ body{
   text-align: center;
 }
 
+/*
+    ~==========================================================~
+    Social Stats
+    ~==========================================================~
+*/
+
+.stats{
+  padding: 20px 15% 40px 15%;
+  background-color: #343633;
+  color: #fff;
+  z-index: -300;
+}
+
+
+.section-title{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 400;
+  padding: 25px 0;
+  margin: 0;
+  color: #fff;
+}
+
+
+.social-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-title{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-weight: 400;
+  padding: 15px 0;
+  margin: 0;
+  color: #fff;
+}
+
+.social-stats-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, .2);
+  transition: 1s;
+}
+
+  .social-stats-wrapper:hover{
+    background-color: #DEC1FF; 
+  }
+
+.social-stat{
+  padding: 10px 30px;
+}
+
+/*
+    ~==========================================================~
+    Image Wall
+    ~==========================================================~
+*/
+
+.image-wall{
+  min-height: 50vh;
+  background: linear-gradient(to top right, rgb(0, 255, 191), #0056b3);
+}
