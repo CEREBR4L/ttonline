@@ -514,5 +514,41 @@ body{
 
 .image-wall{
   min-height: 50vh;
-  background: linear-gradient(to top right, rgb(0, 255, 191), #0056b3);
+  background: linear-gradient(to top right, #5CC8FF, #DEC1FF);
+  font-size: 0;
 }
+
+.img-wrapper{
+  width: 33.3333333333%;
+  max-height: 75vh;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  font-size: initial;
+  transition: .5s;
+}
+
+  .img-wrapper:hover .wall-img{
+    transform: scale(1.2) translateY(-5%);
+    opacity: 0.95;
+  }
+
+.wall-img{
+  width: 100%;
+  transition: .5s;
+  vertical-align: middle;
+}
+
+/*
+    ~==========================================================~
+    ???? SOMETHING ELSE
+    ~==========================================================~
+*/
+
+
+/*
+    ~==========================================================~
+    FOOTER
+    ~==========================================================~
+*/
