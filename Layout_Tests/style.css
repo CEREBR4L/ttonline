@@ -353,6 +353,23 @@ body{
     opacity: 0.8;
   }
 
+  .title-bar{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    padding: 20px;
+    background:  linear-gradient(to right, #DEC1FF, #5CC8FF);
+  }
+
+  .title-bar h2{
+    padding: 0;
+    margin: 0;
+  }
+
 
 /*
     ~==========================================================~
@@ -542,9 +559,14 @@ body{
 
 /*
     ~==========================================================~
-    ???? SOMETHING ELSE
+    ART PROJECTS
     ~==========================================================~
 */
+
+.art-projects{
+  min-height: 40vh;
+  background: linear-gradient(to bottom left, rgb(238, 19, 201), rgb(255, 234, 45))
+}
 
 
 /*
