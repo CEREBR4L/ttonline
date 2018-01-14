@@ -354,10 +354,6 @@ body{
   }
 
   .title-bar{
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 7px;
-    font-weight: 400;
     padding: 0;
     margin: 0;
     color: #fff;
@@ -368,8 +364,31 @@ body{
   .title-bar h2{
     padding: 0;
     margin: 0;
+    font-weight: 400;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
   }
 
+.btn{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 15px 0px;
+  margin: 20px auto;
+  color: #fff;
+  font-size: 13pt;
+  background-color: rgba(0, 0, 0, .2);
+  text-align: center;
+  display: block;
+  width: 15%;
+  transition: .33s;
+}
+
+  .btn:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #5CC8FF;
+  }
 
 /*
     ~==========================================================~
@@ -453,6 +472,7 @@ body{
   margin: 0;
   font-size: 4em;
   text-align: center;
+  color: #fff;
 }
 
 .jumbo-sub-landing{
@@ -463,6 +483,7 @@ body{
   margin: 0;
   font-size: 1em;
   text-align: center;
+  color: #fff;
 }
 
 /*
@@ -531,8 +552,9 @@ body{
 
 .image-wall{
   min-height: 50vh;
-  background: linear-gradient(to top right, #5CC8FF, #DEC1FF);
+  background-color: #343633;
   font-size: 0;
+  padding-bottom: 10px;
 }
 
 .img-wrapper{
@@ -564,7 +586,7 @@ body{
 */
 
 .projects{
-  background: linear-gradient(to top left, rgb(238, 19, 201), rgb(255, 234, 45))
+  
 }
 
 .project{
@@ -572,11 +594,20 @@ body{
   min-height: 400px;
   max-height: 50vh;
   display: flex;
+  background: linear-gradient(to top left, rgb(238, 19, 201), rgb(255, 234, 45));
+  transition: .5s;
 }
 
 .project:nth-child(2n){
-  background: linear-gradient(to top right, rgb(19, 238, 147), rgb(130, 17, 235))
+  background: linear-gradient(to top right, rgb(19, 238, 147), rgb(130, 17, 235));
 }
+
+  .project:hover{
+    background: none;
+    background-color: #343633;
+    text-decoration: none;
+    color: #fff;
+  }
 
   .project-img-cont{
     width: 50%;
@@ -614,6 +645,7 @@ body{
     }
 
     .project-desc{
+      margin: 0;
       color: #fff;
       padding: 20px 50px;
       letter-spacing: 3px;
