@@ -370,6 +370,15 @@ body{
     text-transform: uppercase;
   }
 
+  .title-bar p{
+    padding: 20px 20%;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
 .btn{
   text-transform: uppercase;
   letter-spacing: 3px;
