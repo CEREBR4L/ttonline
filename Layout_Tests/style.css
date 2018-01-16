@@ -566,8 +566,15 @@ body{
   padding-bottom: 10px;
 }
 
-.img-wrapper{
+.img-wrapper-width-50{
+  width: 50%;
+}
+
+.img-wrapper-width-33{
   width: 33.3333333333%;
+}
+
+.img-wrapper{
   max-height: 75vh;
   display: inline-block;
   overflow: hidden;
