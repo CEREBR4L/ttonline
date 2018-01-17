@@ -671,6 +671,47 @@ body{
       font-weight: 200;
     }
 
+/*
+    ~==========================================================~
+    ABOUT PAGE
+    ~==========================================================~
+*/
+
+  .faq, .about{
+    background-color: #343633;
+    padding: 25px 0;
+    margin: 0;
+    color: #fff;
+  }
+
+    .question, .about-inner{
+      width: 75%;
+      margin: 0 auto;
+      padding: 10px 0;
+    }
+
+    .question>h4{
+      color: #fff;
+      background:  linear-gradient(to right, #DEC1FF, #5CC8FF);
+      padding: 15px;
+      margin: 0;
+      font-weight: 400;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    .question>p, .about-inner>p{
+      color: #fff;
+      padding: 10px;
+      margin: 0;
+      font-weight: 300;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .question>p{
+      padding: 25px;
+    }
 
 /*
     ~==========================================================~
