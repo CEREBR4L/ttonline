@@ -499,182 +499,6 @@ body{
 
 /*
     ~==========================================================~
-    Social Stats
-    ~==========================================================~
-*/
-
-.stats{
-  padding: 20px 15% 40px 15%;
-  background-color: #343633;
-  color: #fff;
-  z-index: -300;
-}
-
-
-.section-title{
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  font-weight: 400;
-  padding: 25px 0;
-  margin: 0;
-  color: #fff;
-}
-
-
-.social-wrapper{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.social-title{
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 7px;
-  font-weight: 400;
-  padding: 15px 0;
-  margin: 0;
-  color: #fff;
-}
-
-.social-stats-wrapper{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, .2);
-  transition: 1s;
-}
-
-  .social-stats-wrapper:hover{
-    background-color: #DEC1FF; 
-  }
-
-.social-stat{
-  padding: 10px 30px;
-}
-
-/*
-    ~==========================================================~
-    Image Wall
-    ~==========================================================~
-*/
-
-.image-wall{
-  min-height: 50vh;
-  background-color: #343633;
-  font-size: 0;
-  padding-bottom: 10px;
-}
-
-.img-wrapper-width-50{
-  width: 50%;
-}
-
-.img-wrapper-width-33{
-  width: 33.3333333333%;
-}
-
-.img-wrapper{
-  max-height: 75vh;
-  display: inline-block;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-  font-size: initial;
-  transition: .5s;
-}
-
-  .img-wrapper:hover .wall-img{
-    transform: scale(1.2) translateY(-5%);
-    opacity: 0.95;
-  }
-
-.wall-img{
-  width: 100%;
-  transition: .5s;
-  vertical-align: middle;
-}
-
-/*
-    ~==========================================================~
-    PROJECTS
-    ~==========================================================~
-*/
-
-.projects{
-  
-}
-
-.project{
-  max-width: 100vw;
-  min-height: 400px;
-  max-height: 50vh;
-  display: flex;
-  background: linear-gradient(to top left, rgb(238, 19, 201), rgb(255, 234, 45));
-  transition: .5s;
-}
-
-.project:nth-child(2n){
-  background: linear-gradient(to top right, rgb(19, 238, 147), rgb(130, 17, 235));
-}
-
-  .project:hover{
-    background: none;
-    background-color: #343633;
-    text-decoration: none;
-    color: #fff;
-  }
-
-  .project-img-cont{
-    width: 50%;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    font-size: initial;
-    transition: .5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-  }
-
-    .project-img{
-      width: 100%;
-    }
-
-
-  .project-detail{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-  }
-
-    .project-title{
-      padding: 0;
-      margin: 0;
-      text-align: center;
-      color: #fff;
-      font-weight: 300;
-      letter-spacing: 7px;
-      font-size: 1.75em;
-    }
-
-    .project-desc{
-      margin: 0;
-      color: #fff;
-      padding: 20px 50px;
-      letter-spacing: 3px;
-      max-width: 35vw;
-      text-align: center;
-      text-transform: uppercase;
-      font-weight: 200;
-    }
-
-/*
-    ~==========================================================~
     ABOUT PAGE
     ~==========================================================~
 */
@@ -720,5 +544,23 @@ body{
     FOOTER
     ~==========================================================~
 */
+
+.footer{
+  padding: 20px 15% 40px 15%;
+  background-color: #343633;
+  color: #fff;
+  z-index: -300;
+}
+
+
+.footer-title{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 400;
+  padding: 25px 0;
+  margin: 0;
+  color: #fff;
+}
 
 

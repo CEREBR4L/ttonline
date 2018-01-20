@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SocialStatsComponent } from './social-stats/social-stats.component';
+import { ImageWallComponent } from './image-wall/image-wall.component';
+import { ProjectWallComponent } from './project-wall/project-wall.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SocialStatsComponent,
+    ImageWallComponent,
+    ProjectWallComponent
   ],
   imports: [
     BrowserModule
