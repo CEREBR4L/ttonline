@@ -35,8 +35,12 @@ export const routes: Routes = [
     component: AboutComponent
   },
   {
-    path: '**',
+    path: '404',
     component: FourOhFourComponent
+  },
+  {
+    path: '**',
+    redirectTo: '404'
   }
 ]
 

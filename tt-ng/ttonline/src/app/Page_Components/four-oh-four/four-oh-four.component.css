@@ -1,0 +1,44 @@
+.cont-404{
+    background: linear-gradient(to bottom right, #5CC8FF, #DEC1FF);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 75vh;
+    min-height: 475px;
+}
+
+
+.cont-404>div>span{
+    font-size: 140pt;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.cont-404>div>h3{
+    font-size: 14pt;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+
+.cont-404>div>a{
+    font-size: 10pt;
+    background-color: #333333;
+    color: #fff;
+    padding: 12px 15px;
+    text-decoration: none;
+    transition: .33s;
+}
+
+    .cont-404>div>a:hover{
+        opacity: 0.8;
+    }
+
