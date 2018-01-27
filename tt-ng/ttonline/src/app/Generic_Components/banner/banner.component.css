@@ -1,0 +1,27 @@
+.banner{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    padding: 20px;
+    background:  linear-gradient(to right, #DEC1FF, #5CC8FF);
+  }
+
+  .banner h2{
+    padding: 0;
+    margin: 0;
+    font-size: 24pt;
+    font-weight: 700;
+    letter-spacing: 18px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .banner p{
+    padding: 10px 15%;
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
