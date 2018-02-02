@@ -16,6 +16,7 @@ import { FourOhFourComponent } from './Page_Components/four-oh-four/four-oh-four
 import { NavComponent } from './Generic_Components/nav/nav.component';
 import { FooterComponent } from './Generic_Components/footer/footer.component';
 import { BannerComponent } from './Generic_Components/banner/banner.component';
+import { ProjectPageComponent } from './Page_Components/project-page/project-page.component';
 
 
 export const routes: Routes = [
@@ -58,7 +59,8 @@ export const routes: Routes = [
     FourOhFourComponent,
     NavComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+    ProjectPageComponent
   ],
   imports: [
     BrowserModule,
