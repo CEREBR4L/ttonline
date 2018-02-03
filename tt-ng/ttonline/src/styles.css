@@ -343,7 +343,7 @@ template {
 */
 
 body{
-    background-color: #fff;
+    background-color: #343633;
 }
 
 .link-override{
@@ -399,6 +399,10 @@ body{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
     background-color: #5CC8FF;
+  }
+
+  .btn-full{
+    
   }
 
 /*
