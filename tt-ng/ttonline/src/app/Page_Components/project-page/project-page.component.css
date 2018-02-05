@@ -1,3 +1,7 @@
+.project{
+    
+}
+
 .header{
     width: 100%;
     max-height: 60vh;
@@ -14,10 +18,10 @@
 
 .project-img{
     width: 75%;
-    margin: 0 auto;
+    margin: 75px auto;
 }
 
-.project-info{
+.project-info, .project-para{
     width: 75%;
     margin: 0 auto;
     color: #fff;
@@ -27,4 +31,13 @@
     letter-spacing: 4px;
     font-size: 12pt;
     text-align: center;
+}
+
+.caption{
+    color: #ddd;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-style: italic;
+    padding: 10px 0;
 }
