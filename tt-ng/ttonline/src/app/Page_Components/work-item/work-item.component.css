@@ -1,0 +1,19 @@
+
+
+.work-img{
+    width: 65%;
+    margin: 50px auto;
+}
+
+.work-img >img{
+    width: 100%;
+}
+
+.caption{
+    color: #ddd;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-style: italic;
+    padding: 10px 0;
+}

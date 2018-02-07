@@ -17,6 +17,7 @@ import { NavComponent } from './Generic_Components/nav/nav.component';
 import { FooterComponent } from './Generic_Components/footer/footer.component';
 import { BannerComponent } from './Generic_Components/banner/banner.component';
 import { ProjectPageComponent } from './Page_Components/project-page/project-page.component';
+import { WorkItemComponent } from './Page_Components/work-item/work-item.component';
 
 
 export const routes: Routes = [
@@ -35,6 +36,10 @@ export const routes: Routes = [
   {
     path: 'work',
     component: WorkComponent
+  },
+  {
+    path: 'workitm',
+    component: WorkItemComponent
   },
   {
     path: 'about',
@@ -64,7 +69,8 @@ export const routes: Routes = [
     NavComponent,
     FooterComponent,
     BannerComponent,
-    ProjectPageComponent
+    ProjectPageComponent,
+    WorkItemComponent
   ],
   imports: [
     BrowserModule,
