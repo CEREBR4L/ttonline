@@ -1,0 +1,56 @@
+.header{
+    background-color: #ff004e;
+    min-height: 30vh;
+    background: url(/assets/_bg.png);
+    background-size: cover; 
+    background-position: bottom;
+    border-bottom: solid 3px #ff004e; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5vw;
+}
+
+.logo{
+    height: 10vh;
+    width: 10vh;
+    background-image: url(/assets/logo.png);
+    background-size: cover; 
+    margin: 0;
+    margin-right: 40px; 
+    box-shadow: -5px 5px 25px rgba(0, 0, 0, 0.3);
+    transition: 0.33s;
+}
+
+.logo:hover{
+    height: 20vh;
+    width: 20vh;
+    margin-right: 0px; 
+    box-shadow: -30px 30px 45px rgba(0, 0, 0, 0.3);
+}
+
+.logo:hover ~ .title{
+    letter-spacing: -5pt;
+    opacity: 0;
+}
+
+.title{
+    font-size: 24pt;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 6pt;
+    transition: 0.33s;
+} 
+
+.slim-text{
+    font-weight: 300;
+    margin-right: 5px;
+}
