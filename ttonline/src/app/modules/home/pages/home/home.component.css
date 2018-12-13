@@ -1,56 +1,108 @@
 .header{
-    background-color: #ff004e;
-    min-height: 30vh;
-    background: url(/assets/_bg.png);
-    background-size: cover; 
-    background-position: bottom;
-    border-bottom: solid 3px #ff004e; 
+    min-height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.left-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 5vw;
-}
-
 .logo{
-    height: 10vh;
-    width: 10vh;
+    height: 15vh;
+    width: 15vh;
     background-image: url(/assets/logo.png);
     background-size: cover; 
-    margin: 0;
-    margin-right: 40px; 
+    margin: 0 auto 100px auto;
     box-shadow: -5px 5px 25px rgba(0, 0, 0, 0.3);
     transition: 0.33s;
 }
 
 .logo:hover{
-    height: 20vh;
-    width: 20vh;
-    margin-right: 0px; 
-    box-shadow: -30px 30px 45px rgba(0, 0, 0, 0.3);
+    height: 17vh;
+    width: 17vh;
+    transform: rotate(-45deg);
+    box-shadow: -10px 10px 35px rgba(0, 0, 0, 0.2);
 }
 
-.logo:hover ~ .title{
-    letter-spacing: -5pt;
-    opacity: 0;
+.header-text{
+    background-image: url(/assets/logo.png);
+    background-color: #2e0e51;
+    background-size: cover; 
+    background-position: center;
+    background-blend-mode: darken;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: bg-brethe 14s ease-in-out infinite;
 }
 
 .title{
-    font-size: 24pt;
-    color: #fff;
+    font-size: 36pt;
+    color: #fff7fc;
     font-weight: 800;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 6pt;
-    transition: 0.33s;
+    letter-spacing: 10pt;
+    text-align: center;
+    margin: 40px 0;
+    transition: 0.5s;
 } 
 
-.slim-text{
-    font-weight: 300;
-    margin-right: 5px;
+.title:hover{
+    font-size: 40pt;
+    letter-spacing: 15pt;
+    cursor: pointer;
 }
+
+.sub-title{
+    font-size: 16pt;
+    color: #f01877;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 20pt;
+    transition: 0.33s;
+    text-align: center;
+    margin: 0 40px;
+}
+
+@keyframes bg-brethe{
+    0%{
+        background-size: 160%;
+        background-position: top;
+        background-position-x: 0%;
+    }
+    12.5%{
+        background-size: 110%;
+    }
+    25%{
+        background-size: 160%;
+        background-position: bottom;
+        background-position-x: 100%;
+    }
+    37.5%{
+        background-size: 110%;
+    }
+    50%{
+        background-size: 160%;
+        background-position: top;
+        background-position-x: 100%;
+    }
+    62.5%{
+        background-size: 110%;
+    }
+    75%{
+        background-size: 160%;
+        background-position: bottom;
+        background-position-x: 0%;
+    }
+    87.5%{
+        background-size: 110%;
+    }
+    100%{
+        background-size: 160%;
+        background-position: top;
+        background-position-x: 0%;
+    }
+}
+
