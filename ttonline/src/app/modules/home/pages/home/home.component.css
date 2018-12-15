@@ -332,3 +332,9 @@
         outline-color: #21222a; 
     }
 
+
+.link-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
