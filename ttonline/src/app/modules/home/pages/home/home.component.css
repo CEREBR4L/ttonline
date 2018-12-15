@@ -130,6 +130,27 @@
     }
 }
 
+@keyframes bg-snapshot{
+    0%{
+        background-size: 100%;
+    }
+    20%{
+        background-size: 120%;
+    }
+    40%{
+        background-size: 140%;
+    }
+    60%{
+        background-size: 160%;
+    }
+    80%{
+        background-size: 180%;
+    }
+    100%{
+        background-size: 200%;
+    }
+}
+
 .section{
     height: 100vh;
     background-color: #db186e;
@@ -216,3 +237,50 @@
     text-align: center;
     margin: 0 100px;
 }
+
+.nature-right{
+    background-image: url(/assets/Projects/Nature/path.jpg);
+    background-color: #788540;
+    background-size: cover; 
+    background-position: center;
+    background-blend-mode: hard-light;
+    animation: bg-snapshot 4s step-end infinite;
+}
+
+.nature-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #263535;
+}
+
+.nature-title{
+    color: #98e23f; 
+}
+
+.nature-button{
+    background-color: #263535;
+    border: none;
+    border-bottom: #98e23f solid 3px;
+    color: #98e23f;
+    padding: 20px 50px;
+    margin: 100px auto;
+    font-size: 12pt;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3pt;
+    text-align: center;
+    transition: ease-out .22s;
+}
+
+    .nature-button:hover{
+        background-color: #98e23f;
+        color: #263535;
+        padding: 25px 60px;
+    }
+
+    .nature-button:focus{
+        outline-color: #98e23f; 
+    }
